@@ -1,6 +1,10 @@
+import { SectionWork } from "@/components/section5"
 import { NavBar } from "../components/navbar"
 import { Header } from "../components/section1"
 import { SectionAbout } from "../components/section2"
+import { SectionSkills } from "@/components/section3"
+import { SectionExperience } from "@/components/section4"
+
 
 export default function Home() {
   return (
@@ -12,6 +16,10 @@ export default function Home() {
           <NavBar></NavBar>
           <Header></Header>
           <SectionAbout></SectionAbout>
+          <SectionSkills></SectionSkills>
+          <SectionExperience></SectionExperience>
+          <SectionWork></SectionWork>
+
         </div>
 
       </div>

@@ -25,8 +25,8 @@ export const SectionAbout = () => {
                             <p>When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.</p>
                             <p>Finally, some quick bits about me.</p>
                             <p className="flex flex-col gap-2">
-                                <p>B.E. in Computer Engineering</p>
-                                <p>Full time freelancer</p>
+                                <span>B.E. in Computer Engineering</span>
+                                <span>Full time freelancer</span>
                             </p>
                             <p>One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉</p>
                         </div>
