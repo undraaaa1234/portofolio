@@ -1,7 +1,7 @@
 export const SectionAbout = () => {
     return (
         <>
-            <div className="border border-black py-24 flex flex-col gap-12">
+            <div className="py-24 flex flex-col gap-12">
 
                 <div className="flex justify-center">
                     <h1 className="bg-gray-200 text-gray-600 rounded-xl py-1 px-4">about me</h1>

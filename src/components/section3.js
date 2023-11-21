@@ -1,6 +1,6 @@
 export const SectionSkills = () => {
     return (
-        <div className="flex flex-col gap-24 border border-black py-24">
+        <div className="flex flex-col gap-24 py-24">
 
             <div className="flex flex-col gap-4 items-center">
 

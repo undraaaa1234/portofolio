@@ -4,12 +4,14 @@ import { Header } from "../components/section1"
 import { SectionAbout } from "../components/section2"
 import { SectionSkills } from "@/components/section3"
 import { SectionExperience } from "@/components/section4"
+import { SectionInformation } from "@/components/section6"
+import { Last } from "@/components/section7"
 
 
 export default function Home() {
   return (
     <>
-      <div className="w-screen margin-auto border border-red-300 flex justify-center">
+      <div className="w-screen margin-auto flex justify-center">
 
         <div className=" w-full max-w-6xl flex flex-col">
 
@@ -19,6 +21,8 @@ export default function Home() {
           <SectionSkills></SectionSkills>
           <SectionExperience></SectionExperience>
           <SectionWork></SectionWork>
+          <SectionInformation></SectionInformation>
+          <Last></Last>
 
         </div>
 

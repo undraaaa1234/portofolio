@@ -1,8 +1,49 @@
 import { Card2 } from "./card2"
 
+const data = [
+    {
+        zurag: <img src="Picture.png"></img>,
+        garchig: "Fiskil",
+        murtuud: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        vgText: [
+            "react",
+            "next.js",
+        ],
+
+        icon: <img src="Icon.png"></img>,
+
+    },
+
+    {
+        zurag: <img src="Picture.png"></img>,
+        garchig: "Fiskil",
+        murtuud: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        vgText: [
+            "react",
+            "next.js",
+        ],
+
+        icon: <img src="Icon.png"></img>,
+
+    },
+
+    {
+        zurag: <img src="Picture.png"></img>,
+        garchig: "Fiskil",
+        murtuud: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+        vgText: [
+            "react",
+            "next.js",
+        ],
+
+        icon: <img src="Icon.png"></img>,
+
+    },
+]
+
 export const SectionWork = () => {
     return (
-        <div className="py-24 border border-black">
+        <div className="py-24">
 
             <div className="flex flex-col gap-4 items-center">
 
@@ -12,8 +53,18 @@ export const SectionWork = () => {
 
             </div>
 
-            <div>
-                <Card2></Card2>
+            <div className="flex flex-col">
+                {data.map((item, index) => {
+                    return <Card2
+                        reverse={index % 2 === 1}
+                        img={item.zurag}
+                        title={item.garchig}
+                        paragraph={item.murtuud}
+                        words={item.vgText}
+                        icon={item.icon}
+                    />
+
+                })}
             </div>
 
         </div>

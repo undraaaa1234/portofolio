@@ -1,11 +1,11 @@
 import { GithubIcon } from "@/image/GithubIcon"
 import { FigmaIcon } from "@/image/FigmaIcon"
-import { TwitterIcon } from "@/image/twitterIcon"
+import { TwitterIcon } from "@/image/TwitterIcon"
 
 export const Header = () => {
     return (
         <>
-            <div className="border border-black flex py-24">
+            <div className="flex py-24">
 
                 <div className=" flex flex-col gap-8 grow basis-0">
 
