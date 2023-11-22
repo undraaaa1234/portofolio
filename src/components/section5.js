@@ -53,6 +53,10 @@ export const SectionWork = () => {
 
             </div>
 
+
+
+
+
             <div className="flex flex-col">
                 {data.map((item, index) => {
                     return <Card2

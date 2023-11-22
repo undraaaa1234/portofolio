@@ -4,7 +4,15 @@ export const Card2 = (props) => {
     return (
         <div className={`flex ${props.reverse ? "flex-row-reverse" : "flex-row"} gap-12 py-12 my-12  rounded-2xl w-full shadow-lg`}>
 
+
+
+
+
             <div className="w-1/2 bg-slate-50 p-12 rounded-2xl">{props.img}</div>
+
+
+
+
 
             <div className="w-1/2 flex flex-col gap-6">
 
@@ -20,6 +28,11 @@ export const Card2 = (props) => {
 
                 <p>{props.icon}</p>
             </div>
+
+
+
+
+
 
         </div>
     )
