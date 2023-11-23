@@ -3,7 +3,7 @@ export const NavBar = () => {
 
     return (
         <>
-            <div className="flex justify-between py-4 items-center">
+            <div className="bg-red-300 flex flex-col md:bg-white md:flex-row justify-between py-4 items-center">
                 <h1 className="font-bold">SS</h1>
                 <div className="flex ">
                     <div className="flex gap-3 pr-4  items-center text-gray-600">
