@@ -9,9 +9,13 @@ import { Last } from "@/components/section7"
 
 
 export default function Home() {
+
+
+
   return (
     <>
-      <div className="w-screen margin-auto flex justify-center">
+
+      <div className="w-screen flex justify-center p-4">
 
         <div className=" w-full max-w-6xl flex flex-col">
 
@@ -27,6 +31,7 @@ export default function Home() {
         </div>
 
       </div>
+
     </>
   )
 

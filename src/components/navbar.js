@@ -3,9 +3,10 @@ export const NavBar = () => {
 
     return (
         <>
-            <div className="bg-red-300 flex flex-col md:bg-white md:flex-row justify-between py-4 items-center">
+            <div className=" flex md:bg-white justify-between py-4 items-center">
                 <h1 className="font-bold">SS</h1>
-                <div className="flex ">
+
+                <div className="flex hidden md:block md:flex">
                     <div className="flex gap-3 pr-4  items-center text-gray-600">
                         <p>about</p>
                         <p>work</p>
@@ -17,7 +18,14 @@ export const NavBar = () => {
                         <button className="bg-black text-white p-2 rounded">download cv</button>
                     </div>
                 </div>
+
+                <div className="md:hidden">
+                    <img src="3.png"></img>
+                </div>
+
             </div>
+
+
         </>
     )
 }

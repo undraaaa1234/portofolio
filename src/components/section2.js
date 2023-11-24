@@ -1,22 +1,22 @@
 export const SectionAbout = () => {
     return (
         <>
-            <div className="py-24 flex flex-col gap-12">
+            <div className="py-16 flex flex-col gap-12 bg-slate-50 md:py-24">
 
                 <div className="flex justify-center">
                     <h1 className="bg-gray-200 text-gray-600 rounded-xl py-1 px-4">about me</h1>
                 </div>
 
 
-                <div className="flex">
+                <div className="flex flex-col items-center gap-12 md:flex-row">
 
-                    <div className="grow basis-0">
-                        <img src="/princess.jpeg" className="w-2/4 h-2/4 ml-20 mt-14 object-cover"></img>
+                    <div className="md:grow md:basis-0">
+                        <img src="/princess.jpeg" className="border border-black w-[280px] h-[360px] object-cover md:w-[400px] md:h-[480px] "></img>
                     </div>
 
-                    <div className="grow basis-0 flex flex-col gap-4">
+                    <div className="flex flex-col gap-4 md:grow md:basis-0">
 
-                        <h1 className="font-bold text-2xl">Curious about me? Here you have it:</h1>
+                        <h1 className="font-bold text-2xl text-center">Curious about me? Here you have it:</h1>
 
                         <div className="flex flex-col gap-4 text-gray-600">
                             <p>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>

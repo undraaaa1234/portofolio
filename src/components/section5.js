@@ -43,7 +43,7 @@ const data = [
 
 export const SectionWork = () => {
     return (
-        <div className="py-24">
+        <div className="py-16 flex flex-col md:py-24">
 
             <div className="flex flex-col gap-4 items-center">
 
@@ -57,7 +57,7 @@ export const SectionWork = () => {
 
 
 
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-6 ">
                 {data.map((item, index) => {
                     return <Card2
                         reverse={index % 2 === 1}

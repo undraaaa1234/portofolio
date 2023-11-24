@@ -5,9 +5,9 @@ import { TwitterIcon } from "@/image/TwitterIcon"
 export const Header = () => {
     return (
         <>
-            <div className="flex py-24">
+            <div className="flex flex-col py-16 md:flex-row md:py-24">
 
-                <div className=" flex flex-col gap-8 grow basis-0">
+                <div className=" flex flex-col order-last md:order-first gap-8 grow basis-0">
 
                     <div className="flex flex-col gap-1">
                         <h1 className="font-bold text-4xl">Hi, I’m Undraa 👋</h1>

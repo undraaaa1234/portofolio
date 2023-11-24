@@ -16,3 +16,4 @@ module.exports = {
   },
   plugins: [],
 }
+export const darkMode = "class";
